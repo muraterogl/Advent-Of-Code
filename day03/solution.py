@@ -1,4 +1,4 @@
-with open('day3/input.txt') as f:q=f.readlines()
+with open('day03/input.txt') as f:q=f.readlines()
 
 gamma = ""
 epsilon = ""

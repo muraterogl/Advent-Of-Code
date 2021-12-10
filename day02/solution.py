@@ -1,4 +1,4 @@
-with open('day2/input.txt') as f:q=f.readlines()
+with open('day02/input.txt') as f:q=f.readlines()
 x=y=0
 for i in q:
     a,b = i.split()

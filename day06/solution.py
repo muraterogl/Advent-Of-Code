@@ -1,4 +1,4 @@
-with open('day6/input.txt') as f:q=f.readlines()
+with open('day06/input.txt') as f:q=f.readlines()
 
 def solve(n):
     fishes = [0,0,0,0,0,0,0,0,0]

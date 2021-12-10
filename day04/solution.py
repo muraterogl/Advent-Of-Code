@@ -1,4 +1,4 @@
-with open('day4/input.txt') as f:q=f.readlines()
+with open('day04/input.txt') as f:q=f.readlines()
 
 *numbers, = map(int, q[0].split(","))
 q = q[1:]

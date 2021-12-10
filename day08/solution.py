@@ -1,4 +1,4 @@
-with open('day8/input.txt') as f:q=f.readlines()
+with open('day08/input.txt') as f:q=f.readlines()
 
 o = [x.split(" | ")[1].split() for x in q]
 

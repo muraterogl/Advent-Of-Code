@@ -1,5 +1,5 @@
 import math
-with open('day9/input.txt') as f:q=f.readlines()
+with open('day09/input.txt') as f:q=f.readlines()
 m = [[*map(int, list(i.rstrip("\n")))] for i in q]
 l=[]
 for y in range(len(m)):

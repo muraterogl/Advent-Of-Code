@@ -1,4 +1,4 @@
-with open('day7/input.txt') as f:q=f.readlines()
+with open('day07/input.txt') as f:q=f.readlines()
 
 *positions, = map(int, q[0].split(","))
 

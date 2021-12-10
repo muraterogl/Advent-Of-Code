@@ -1,4 +1,4 @@
-with open('day5/input.txt') as f:q=f.readlines()
+with open('day05/input.txt') as f:q=f.readlines()
 
 lines = [[(int(n.split(",")[0]),int(n.split(",")[1])) for n in line.split(" -> ")]for line in q]
 board = [[0 for _ in range(1000)]for _ in range(1000)]
