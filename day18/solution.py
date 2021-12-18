@@ -71,10 +71,7 @@ def magnitude(x):
         for i in range(len(n)):
             lowestDepth = max(n[i].depth, lowestDepth)
         for i in range(len(n)):
-            if n[i].depth==lowestDepth and i==len(n)-1:
-                n = n[:i] + [Number(n[i].number, lowestDepth-1)] + n[i+2:]
-                break
-            elif n[i].depth==lowestDepth and n[i+1].depth==lowestDepth:
+            if n[i].depth==lowestDepth and n[i+1].depth==lowestDepth:
                 n = n[:i] + [Number(3*n[i].number+2*n[i+1].number, lowestDepth-1)] + n[i+2:]
                 break
         
