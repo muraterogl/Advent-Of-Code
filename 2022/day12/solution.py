@@ -17,8 +17,6 @@ def solve(sx,sy,fx,fy):
             seen.add((cx,cy))
             for dx,dy in [(0,1),(0,-1),(-1,0),(1,0)]:
                 if 0<=cx+dx<width and 0<=cy+dy<length and height(cx+dx,cy+dy)<=height(cx,cy)+1:
-                    if m[cy+dy][cx+dx]=="a":
-                        max_close = cl
                     queue.append((cx+dx,cy+dy,cl+1))
                     
 sx=sy=fx=fy=-1
